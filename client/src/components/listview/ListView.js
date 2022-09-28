@@ -13,7 +13,7 @@ const ListView = () => {
     const [modalDate, setModalDate] = useState('')
 
     const getTasks = () => {
-        axios.get('http://localhost:3002/users/public/tasks/').then((res) => {
+        axios.get('http://localhost:3002/api/users/public/tasks/').then((res) => {
             const data = res.data
             if (data.ok !== 1) console.log('ERROR')
             setWeeks(tasksToWeeks(data.result))
