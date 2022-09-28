@@ -11,7 +11,7 @@ const TaskView = () => {
     const params = useParams()
 
     useEffect(() => {
-        axios.get(`http://localhost:3002/api/users/public/tasks/${params.id}`).then((res) => {
+        axios.get(`https://coworkdev.herokuapp.com/api/users/public/tasks/${params.id}`).then((res) => {
             const data = res.data
             if (data.ok !== 1) console.log('ERROR')
             setTask(data.result)
@@ -20,7 +20,7 @@ const TaskView = () => {
     }, [])
 
     const deleteTask = () => {
-        axios.delete(`http://localhost:3002/api/users/public/tasks/${params.id}`).then((res) => {
+        axios.delete(`https://coworkdev.herokuapp.com/api/users/public/tasks/${params.id}`).then((res) => {
             const data = res.data
             if (data.ok !== 1) console.log('ERROR')
         })

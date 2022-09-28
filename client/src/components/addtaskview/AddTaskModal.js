@@ -25,7 +25,7 @@ const AddTaskModal = ({ onExitClick, onAddTask, defaultDate }) => {
 			color: color
 		}
 
-		axios.post(`http://localhost:3002/api/users/public/tasks/`, taskData)
+		axios.post(`https://coworkdev.herokuapp.com/api/users/public/tasks/`, taskData)
 			.then((res) => {
 				if (res.data.ok !== 1) console.log("Error adding task")
 				onAddTask()
