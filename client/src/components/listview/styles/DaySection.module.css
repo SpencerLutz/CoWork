@@ -1,0 +1,52 @@
+.section:hover {
+    background-color: #DDFFEE;
+    transition: 140ms;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+
+.text {
+    color: var(--daySeparator);
+    font-size: 20px;
+    font-family: var(--font);
+    font-weight: normal;
+}
+
+.bar {
+    border: 1.5px solid var(--daySeparator);
+    height: 0px;
+    align-self: center;
+    flex-grow: 1;
+}
+
+.barEnd {
+    border: 1.5px solid var(--daySeparator);
+    height: 0px;
+    align-self: center;
+    width: 150px;
+}
+
+.group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.empty {
+    flex: 1 1 0px;
+    margin: 10px 10px;
+}
+
+.date {
+    composes: text;
+    margin: 0px 10px;
+}
+
+.time {
+    composes: text;
+    margin: 0px 10px;
+}

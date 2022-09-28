@@ -1,0 +1,9 @@
+.view {
+    overflow-y: auto;
+    background-color: var(--background);
+    flex-grow: 1;
+}
+
+.extraSpace {
+    height: 200px;
+}

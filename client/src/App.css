@@ -1,0 +1,33 @@
+:root {
+    --metaText: #000000;
+
+    --background: #ffffff;
+    --font: 'Arial Rounded MT Bold';
+
+    --weekTitleBg: #c8c8c8;
+    --weekTitleBorder: #000000;
+    --weekTitleText: var(--metaText);
+
+    --daySeparator: var(--metaText);
+
+    --headerBg: #a6a6a6;
+    --headerBorder: #000000;
+    --headerText: var(--metaText);
+
+    --listTaskBg: #ffffff;
+    --listTaskHoverBg: #eeeeee;
+    --listTaskBorder: #000000;
+    --listTaskTitle: var(--metaText);
+    --listTaskText: #515151;
+
+    --taskViewText: var(--metaText);
+    --taskViewTitle: var(--metaText);
+    --taskViewType: #909090;
+    --taskViewCategory: #515151;
+}
+
+.appDiv {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}

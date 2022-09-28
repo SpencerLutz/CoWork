@@ -1,0 +1,26 @@
+.title {
+    background-color: var(--weekTitleBg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 0px 7px 0px;
+    border-top: 2px solid var(--weekTitleBorder);
+    border-bottom: 2px solid var(--weekTitleBorder);
+}
+
+.text {
+    color: var(--weekTitleText);
+    font-size: 25px;
+    font-family: var(--font);
+    font-weight: normal;
+}
+
+.date {
+    composes: text;
+    margin: 5px 0px 5px 10px;
+}
+
+.time {
+    composes: text;
+    margin: 5px 170px 0px 5px;
+}

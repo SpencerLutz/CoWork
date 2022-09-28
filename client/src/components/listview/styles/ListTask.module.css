@@ -1,0 +1,63 @@
+.link {
+    text-decoration: none;
+    cursor: pointer;
+    flex: 1 1 0px;
+    margin: 10px 10px;
+}
+
+.task {
+    background-color: var(--listTaskBg);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 3px solid var(--listTaskBorder);
+}
+
+.task:hover {
+    background-color: var(--listTaskHoverBg);
+    position: relative;
+    left: 3px;
+    top: 3px;
+}
+
+.left {
+    font-family: var(--font);
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: auto;
+    padding: 5px 0px;
+}
+
+.title {
+    color: var(--listTaskTitle);
+    font-size: 20px;
+    margin: 0px 0px 0px 10px;
+}
+
+.category {
+    color: var(--listTaskText);
+    font-size: 15px;
+    margin: 0px 0px 0px 10px;
+}
+
+.right {
+    font-family: var(--font);
+    font-weight: normal;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px
+}
+
+.time {
+    color: var(--listTaskText);
+    font-size: 20px
+}
+
+.buttons {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+}

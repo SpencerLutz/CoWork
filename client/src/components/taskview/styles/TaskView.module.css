@@ -1,0 +1,9 @@
+.view {
+    color: var(--taskViewText);
+    background-color: var(--background);
+    font-family: var(--font);
+}
+
+.desc {
+    margin: 0px 10px;
+}
