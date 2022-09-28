@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+
 :root {
     --metaText: #000000;
 
     --background: #ffffff;
-    --font: 'Arial Rounded MT Bold';
+    --font: 'Nunito', sans-serif; /*'Arial Rounded MT Bold';*/
 
     --weekTitleBg: #c8c8c8;
     --weekTitleBorder: #000000;
